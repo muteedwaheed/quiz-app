@@ -1,0 +1,29 @@
+.hidden { display: none; }
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  /* background-color:aqua */
+}
+.option {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  background-color:navy;
+  color:white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#options-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.option:hover {
+  background-color: #ddd;
+}
